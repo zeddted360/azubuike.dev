@@ -62,7 +62,7 @@ const ContactDialog = ({
         <DialogHeader>
           <DialogTitle>Contact Me</DialogTitle>
           <DialogDescription>
-            Send me a message and I'll get back to you as soon as possible.
+            Send me a message and I&apos;ll get back to you as soon as possible.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4">

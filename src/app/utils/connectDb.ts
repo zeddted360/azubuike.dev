@@ -8,7 +8,7 @@ export const connectDB = async () => {
         console.log("database already connected");
         return;
     }
-    let connect = await mongoose.connect(uri);
+    const connect = await mongoose.connect(uri);
     console.log("connected to the database");
       isConnected.isConnected = connect.STATES.connected ? true : false;
   } catch (error) {

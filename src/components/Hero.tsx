@@ -24,7 +24,7 @@ const Hero = () => {
       document.body.removeChild(link);
       window.URL.revokeObjectURL(url);
     } catch (error) {
-      alert("Failed to download CV. Please try again.");
+      alert(error instanceof Error ? error.message : "Failed to download CV. Please try again.");
     } finally {
       setIsDownloading(false);
     }

@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className="w-full max-w-4xl mx-auto py-12 px-4">
       <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-        Let's Connect
+        Let&apos;s Connect
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
