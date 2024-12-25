@@ -24,9 +24,9 @@ interface Project {
 const Project = () => {
   const projects: Project[] = [
     {
-      title: "Social Media Platform",
+      title: "Social Media Blog Platform",
       description:
-        "A full-stack social networking platform with real-time features, authentication, and media sharing capabilities",
+        "A full-stack social media blog platform with real-time features, authentication, and media sharing capabilities.",
       features: [
         "User authentication with JWT and Google OAuth",
         "Real-time post updates and notifications",
@@ -47,9 +47,9 @@ const Project = () => {
       githubLink: "https://github.com/zeddted360/naija_gist.git",
     },
     {
-      title: "Real-time Chat Application",
+      title: "Real-Time Chat Application",
       description:
-        "A modern chat application featuring instant messaging, user presence, and message history",
+        "A modern chat application featuring instant messaging, user presence, and message history.",
       features: [
         "Real-time messaging using WebSocket",
         "User authentication system",
@@ -66,13 +66,13 @@ const Project = () => {
         "TypeScript",
         "TailwindCSS",
       ],
-      liveLink: "https://naija-gist.vercel.app",
-      githubLink: "https://github.com/zeddted360/naija_gist.git",
+      liveLink: "https://real-time-chat.vercel.app",
+      githubLink: "https://github.com/zeddted360/real_time_chat.git",
     },
     {
       title: "Portfolio Website",
       description:
-        "A personal portfolio website showcasing a clients projects and skills with a contact form",
+        "A personal portfolio website showcasing projects and skills with a contact form.",
       features: [
         "Responsive design",
         "Contact form with email integration",
@@ -88,8 +88,8 @@ const Project = () => {
         "Nodemailer",
         "MongoDB",
       ],
-      liveLink: "https://portfolioolung-chisom-martha.vercel.app/",
-      githubLink: "https://github.com/zeddted360/olung-chisom-martha.git",
+      liveLink: "https://portfolio-olung-chisom-martha.vercel.app/",
+      githubLink: "https://github.com/zeddted360/portfolio_website.git",
     },
   ];
 
